@@ -1,0 +1,12 @@
+# Function to convert Celsius to Fahrenheit
+
+def c_to_f(celsius):
+    return (celsius * 9/5) + 32
+
+# List of Celsius values
+celsius_values = [0, 20, 37, 100]
+
+# Convert each value and print
+for c in celsius_values:
+    f = c_to_f(c)
+    print(f"{c}°C = {f}°F")
