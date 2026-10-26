@@ -1,6 +1,6 @@
 #  A grocery shop owner wants to calculate the final bill after applying discounts based on the purchase amount. 
 # Write a program using if...elif...else to display the final amount. 
-purchase_amount = float(input("Enter the purchase amount: "))
+purchase_amount = float(input("Enter the purchase amount:"))
 
 if purchase_amount >= 1000:
     discount = 0.2
